@@ -1,0 +1,82 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 10px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        /* Customize the look and feel of the collapsed top nav here */
+        padding: 0;
+    }
+}
+
+
+
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.about-section {
+    height: 110%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+    background: #F8FBFF;
+
+}
+.blog-section {
+    height: 100%;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    text-align: center;
+    background: #F8FBFF;
+
+}
+.product-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+
+}
+
+.services-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+.backers-section {
+    padding-top: 100px;
+    text-align: center;
+    background: #fff;
+    padding-bottom: 150px;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+.footer-section{
+   
+    padding-top: 80px;
+    text-align: center;
+    background: #11141A;
+    padding-bottom: 80px;
+}
